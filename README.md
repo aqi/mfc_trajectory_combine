@@ -22,6 +22,13 @@
     mfc_trajectory_combine\mfc_trajectory_combine\zlib-dll  zlib动态链接库及其导入库
 ***
 ***
+         使用图文教程:
+
+![image](https://github.com/qianghaohao/mfc_trajectory_combine/raw/master/img/export_demo.png)
+![image](https://github.com/qianghaohao/mfc_trajectory_combine/raw/master/img/trajectory_combine_demo.png)
+![image](https://github.com/qianghaohao/mfc_trajectory_combine/raw/master/img/about_tool.png)
+***
+***
          工具实现思路:
     由于百度导航轨迹文件是gz压缩格式的,因此在解析前先用zlib开源库将gz文件解压
     到内存缓冲,然后根据轨迹文件头信息来解析解压出来的轨迹文件.将其中的GPS点的经度,
@@ -31,12 +38,6 @@
     不要多于14个点左右,否则生成的地图文件无法打开.
     ------>手机百度地图轨迹文件在:SD卡/BaiduMap/bnav/trajectory
 
-***
-         使用图文教程:
-
-![image](https://github.com/qianghaohao/mfc_trajectory_combine/raw/master/img/export_demo.png)
-![image](https://github.com/qianghaohao/mfc_trajectory_combine/raw/master/img/trajectory_combine_demo.png)
-![image](https://github.com/qianghaohao/mfc_trajectory_combine/raw/master/img/about_tool.png)
 ***
 ***
 -----软件源码--------------------------------------------------------------
