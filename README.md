@@ -39,16 +39,22 @@ mfc_trajectory_combine\mfc_trajectory_combine\zlib-dll  zlib动态链接库及�
 ***
 -----软件源码--------------------------------------------------------------
 百度地图轨迹文件分析与合并工具界面版:
+
 https://github.com/qianghaohao/mfc_trajectory_combine
+
                            --------Author:qianghaohao
 百度导航轨迹文件分析与合并工具控制台版:
+
 https://github.com/hongwenjun/TrajectoryCombine
+
                            --------Author:hongwenjun
+                           
 ---------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------
 本工具参考代码:
+
 https://github.com/hongwenjun/TrajectoryCombine
-                                  ThanksTo:hongwenjun
+                           ThanksTo:hongwenjun
 ---------------------------------------------------------------------------
 ***
