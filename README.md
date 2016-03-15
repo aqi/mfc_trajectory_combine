@@ -14,14 +14,6 @@
     个轨迹文件,方便GPS点的导出,也方便地图文件的生成.
 ***
 ***
-        工具源码目录说明:
-    mfc_trajectory_combine\mfc_trajectory_combine\bin   可执行文件目录
-    mfc_trajectory_combine\mfc_trajectory_combine\doc   软件说明帮助文档
-    mfc_trajectory_combine\mfc_trajectory_combine\res  软件资源文件,里面包含图标,背景图片等
-    mfc_trajectory_combine\mfc_trajectory_combine\zlib-1.2.8   zlib库头文件
-    mfc_trajectory_combine\mfc_trajectory_combine\zlib-dll  zlib动态链接库及其导入库
-***
-***
          使用图文教程:
 
 ![image](https://github.com/qianghaohao/mfc_trajectory_combine/raw/master/img/export_demo.png)
@@ -40,6 +32,14 @@
 
 ***
 ***
+        工具源码目录说明:
+    mfc_trajectory_combine\mfc_trajectory_combine\bin   可执行文件目录
+    mfc_trajectory_combine\mfc_trajectory_combine\doc   软件说明帮助文档
+    mfc_trajectory_combine\mfc_trajectory_combine\res  软件资源文件,里面包含图标,背景图片等
+    mfc_trajectory_combine\mfc_trajectory_combine\zlib-1.2.8   zlib库头文件
+    mfc_trajectory_combine\mfc_trajectory_combine\zlib-dll  zlib动态链接库及其导入库
+***
+***
 -----软件源码--------------------------------------------------------------
 
     百度地图轨迹文件分析与合并工具界面版:
@@ -48,7 +48,7 @@
     百度导航轨迹文件分析与合并工具控制台版:
     https://github.com/hongwenjun/TrajectoryCombine
                           Author:hongwenjun
----------------------------------------------------------------------------
+                          
 ---------------------------------------------------------------------------
 本工具参考代码:
      https://github.com/hongwenjun/TrajectoryCombine
