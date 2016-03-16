@@ -14,7 +14,7 @@
     个轨迹文件,方便GPS点的导出,也方便地图文件的生成.
 ***
 ***
-####使用图文教程:
+####*使用图文教程:*
 
 ![image](https://github.com/qianghaohao/mfc_trajectory_combine/raw/master/img/export_demo.png)
 ![image](https://github.com/qianghaohao/mfc_trajectory_combine/raw/master/img/trajectory_combine_demo.png)
