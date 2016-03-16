@@ -18,6 +18,7 @@
 
 ![image](https://github.com/qianghaohao/mfc_trajectory_combine/raw/master/img/export_demo.png)
 ![image](https://github.com/qianghaohao/mfc_trajectory_combine/raw/master/img/trajectory_combine_demo.png)
+![image](https://github.com/qianghaohao/mfc_trajectory_combine/raw/master/img/trajectory_demo.png)
 ![image](https://github.com/qianghaohao/mfc_trajectory_combine/raw/master/img/about_tool.png)
 ***
 ***
