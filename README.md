@@ -21,7 +21,7 @@
 ![image](https://github.com/qianghaohao/mfc_trajectory_combine/raw/master/img/about_tool.png)
 ***
 ***
-####工具实现思路:
+####*工具实现思路:*
     由于百度导航轨迹文件是gz压缩格式的,因此在解析前先用zlib开源库将gz文件解压
     到内存缓冲,然后根据轨迹文件头信息来解析解压出来的轨迹文件.将其中的GPS点的经度,
     纬度,时速,时间戳提取出来,可以将这些信息保存成文本文件,也可以将这些GPS点导出
@@ -32,7 +32,7 @@
 
 ***
 ***
-####工具源码目录说明:
+####*工具源码目录说明:*
     mfc_trajectory_combine\mfc_trajectory_combine\bin   可执行文件目录
     mfc_trajectory_combine\mfc_trajectory_combine\doc   软件说明帮助文档
     mfc_trajectory_combine\mfc_trajectory_combine\res  软件资源文件,里面包含图标,背景图片等
@@ -40,7 +40,7 @@
     mfc_trajectory_combine\mfc_trajectory_combine\zlib-dll  zlib动态链接库及其导入库
 ***
 ***
-####软件源码:
+####*软件源码:*
 
     百度地图轨迹文件分析与合并工具界面版:
     https://github.com/qianghaohao/mfc_trajectory_combine
@@ -49,7 +49,7 @@
     https://github.com/hongwenjun/TrajectoryCombine
                           Author:hongwenjun
                           
-####本工具参考代码:
+####*本工具参考代码:*
      https://github.com/hongwenjun/TrajectoryCombine
                            ThanksTo:hongwenjun
 ***
