@@ -44,12 +44,10 @@
 
 #####百度地图轨迹文件分析与合并工具界面版:
 [https://github.com/qianghaohao/mfc_trajectory_combine](https://github.com/qianghaohao/mfc_trajectory_combine)
-
-                          *Author:qianghaohao*
+                  *By Qiang Haohao*
 #####百度导航轨迹文件分析与合并工具控制台版:
 [https://github.com/hongwenjun/TrajectoryCombine](https://github.com/hongwenjun/TrajectoryCombine)
-
-                          *Author:hongwenjun*
+                          *By Hong Wenjun*
                           
 ####本工具参考代码:
 [https://github.com/hongwenjun/TrajectoryCombine](https://github.com/hongwenjun/TrajectoryCombine)
