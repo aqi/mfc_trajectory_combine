@@ -271,11 +271,14 @@ void CExport_gps_point::OnBnClickedButtonTxt()
 		AfxMessageBox("列表为空,请导出GPS点后再保存");
 		return;
 	}
+	
+	CString def_filename = m_trajectory_file;
+	int n = def_filename.Find('.');
+	def_filename = def_filename.Left(n) + ".gps";  //获取默认文件名
 
-	CFileDialog export_dlg(FALSE, "txt");  //创建保存文件对话框  "txt"参数表示默认文件后缀名
+	CFileDialog export_dlg(FALSE, "txt", def_filename);  //创建保存文件对话框  "txt"参数表示默认文件后缀名
 	export_dlg.m_ofn.lpstrFilter = "txt files(*.txt)|*.txt||";
 	export_dlg.m_ofn.lpstrTitle = "导出GPS到文本文件";
-
 	if (export_dlg.DoModal() == IDOK)
 	{
 		std::ofstream gps_file(export_dlg.GetPathName(), std::ios::out);
@@ -309,7 +312,11 @@ void CExport_gps_point::OnBnClickedButtonMap()
 		return;
 	}
 
-	CFileDialog export_dlg(FALSE, "html");  //创建保存文件对话框  "html"参数表示默认文件后缀名
+	CString def_filename = m_trajectory_file;
+	int n = def_filename.Find('.');
+	def_filename = def_filename.Left(n);  //获取默认文件名
+
+	CFileDialog export_dlg(FALSE, "html", def_filename);  //创建保存文件对话框  "html"参数表示默认文件后缀名
 	export_dlg.m_ofn.lpstrFilter = "html files(*.html)|*.html||";
 	export_dlg.m_ofn.lpstrTitle = "生成地图文件";
 
@@ -332,7 +339,9 @@ void CExport_gps_point::OnBnClickedButtonMap()
 		map_file << "\" />\n</head><body>\n自动跳转到 到google地图 <p>\n http://www.google.cn/maps/dir/ gps坐标/ gps坐标 / gps坐标 <p>\n";
 		map_file << "当前轨迹数据文件:" << m_trajectory_file << "<p>\n</body></html>";
 		map_file.close();
-		AfxMessageBox("生成文地图件成功!");
+		//AfxMessageBox("生成文地图件成功!");
+		
+		ShellExecute(NULL, "open", export_dlg.GetPathName(), "", "", SW_SHOWNORMAL);
 	}
 }
 

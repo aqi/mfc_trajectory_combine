@@ -1,23 +1,11 @@
-﻿生成启动时间为 2016/3/16 12:23:05。
-     1>项目“D:\VSProjram\mfc_trajectory_combine\mfc_trajectory_combine\mfc_trajectory_combine.vcxproj”在节点 2 上(Rebuild 个目标)。
+﻿生成启动时间为 2016/3/17 10:33:33。
+     1>项目“D:\VSProjram\mfc_trajectory_combine\mfc_trajectory_combine\mfc_trajectory_combine.vcxproj”在节点 2 上(Build 个目标)。
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I".\zlib-1.2.8" /Zi /nologo /W3 /WX- /sdl- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D ZLIB_WINAPI /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Release\mfc_trajectory_combine.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
-         stdafx.cpp
-     1>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I".\zlib-1.2.8" /Zi /nologo /W3 /WX- /sdl- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D ZLIB_WINAPI /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\mfc_trajectory_combine.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt AboutToolDlg.cpp bdgps_api.cpp CoolListCtrl.cpp Export_gps_point.cpp mfc_trajectory_combine.cpp mfc_trajectory_combineDlg.cpp Trajecory_combine.cpp
-         AboutToolDlg.cpp
-         bdgps_api.cpp
-         CoolListCtrl.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I".\zlib-1.2.8" /Zi /nologo /W3 /WX- /sdl- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\mfc_trajectory_combine.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Export_gps_point.cpp
          Export_gps_point.cpp
-         mfc_trajectory_combine.cpp
-         mfc_trajectory_combineDlg.cpp
-         Trajecory_combine.cpp
-       ResourceCompile:
-         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /l"0x0804" /IRelease\ /nologo /fo"Release\mfc_trajectory_combine.res" mfc_trajectory_combine.rc 
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\bin\mfc_trajectory_combine.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:".\zlib-dll" ".\zlib-dll\zlibwapid.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:".\bin\mfc_trajectory_combine.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\bin\mfc_trajectory_combine.lib" /MACHINE:X86 /SAFESEH Release\mfc_trajectory_combine.res
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\bin\mfc_trajectory_combine.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:".\zlib-dll" ".\zlib-dll\zdll.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:".\bin\mfc_trajectory_combine.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\bin\mfc_trajectory_combine.lib" /MACHINE:X86 /SAFESEH Release\mfc_trajectory_combine.res
          Release\AboutToolDlg.obj
          Release\bdgps_api.obj
          Release\CoolListCtrl.obj
@@ -27,11 +15,13 @@
          Release\stdafx.obj
          Release\Trajecory_combine.obj
          正在生成代码
-         All 827 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         2 of 832 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           9 functions had inline decision re-evaluated but remain unchanged
          已完成代码的生成
          mfc_trajectory_combine.vcxproj -> D:\VSProjram\mfc_trajectory_combine\mfc_trajectory_combine\.\bin\mfc_trajectory_combine.exe
-     1>已完成生成项目“D:\VSProjram\mfc_trajectory_combine\mfc_trajectory_combine\mfc_trajectory_combine.vcxproj”(Rebuild 个目标)的操作。
+     1>已完成生成项目“D:\VSProjram\mfc_trajectory_combine\mfc_trajectory_combine\mfc_trajectory_combine.vcxproj”(Build 个目标)的操作。
 
 已成功生成。
 
-已用时间 00:00:14.76
+已用时间 00:00:08.45

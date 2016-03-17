@@ -312,7 +312,7 @@ void CTrajecory_combine::OnBnClickedButtonCombine()
 		return;
 	}
 
-	CFileDialog combine_dlg(FALSE, "bin.gz");  //创建保存文件对话框  "bin.gz"参数表示默认文件后缀名
+	CFileDialog combine_dlg(FALSE, "bin.gz", "combined_trajectory");  //创建保存文件对话框  "bin.gz"参数表示默认文件后缀名
 	combine_dlg.m_ofn.lpstrFilter = "html files(*.bin.gz)|*.bin.gz||";
 	combine_dlg.m_ofn.lpstrTitle = "合并选择的轨迹文件";
 	std::map<time_t, GPS_POINT> map_gps_point;    //使用map容器存放GPS点
